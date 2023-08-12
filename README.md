@@ -53,7 +53,7 @@ Obs.: Não se importe com os errinhos que vai dar, eles não vão prejudicar em 
 
 Digite no terminal o seguinte comando: "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
 
-Após isso pode dar um ctrl + c que já vai estar funcionando certinho.
+## Atenção!!! Sempre que você for atualizar uma linha no html, o comando acima deve estar rodando, o --watch serve para dizer que o arquivo está sendo atualizado automaticamente, se apertar ctrl + c para parar de rodar esse código e tentar fazer alguma alteração no html, ele não vai rodar.
 
 ## Configurando o arquivo index.html:
 
