@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Formulário de login</title>
+</head>
+<body class="w-screen h-screen">
+    <main class="flex flex-col items-center justify-center w-screen h-screen bg-slate-800">
+        <h2 class="text-center text-xl text-white m-4">Login</h2>
+        <section class="flex flex-col items-center justify-center gap-10 p-60 max-[640px]:p-52 w-3/6 h-2/5 mt-10 rounded-xl bg-white">
+            <div class="mb-3 flex flex-col gap-4">
+                <label for="email">E-mail: </label>
+                <input class="p-2 w-96 max-[640px]:w-80 rounded-lg border-2 border-solid border-black outline-none focus:border-none focus:outline-blue-400" id="email" type="text" placeholder="Digite aqui seu e-mail">
+            </div>
+            <div class="flex flex-col gap-4">
+                <label for="password">Senha: </label>
+                <input class="p-2 w-96 max-[640px]:w-80 rounded-lg border-2 border-solid border-black outline-none focus:border-none focus:outline-blue-400" id="password" type="password" placeholder="Digite aqui sua senha">
+            </div>
+            <div class="mt-10">
+                <button class="bg-blue-100 p-2 w-32 hover:bg-blue-400 rounded-xl" type="button">Login</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
